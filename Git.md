@@ -7,7 +7,7 @@
 - git pull
 - git log
 
-### create a new repository on the command line
+### Create a new repository on the command line
 - echo "# converter" >> README.md
 - git init
 - git add README.md
@@ -15,9 +15,18 @@
 - git remote add origin https://github.com/avshatalov48/converter.git
 - git push -u origin master
 
-### push an existing repository from the command line
+### Push an existing repository from the command line
 - git remote add origin https://github.com/avshatalov48/converter.git
 - git push -u origin master
 
-### Создание новой ветки
+### Создание новой ветки (https://githowto.com/ru/creating_a_branch)
 - git checkout -b <имяветки> (является шорткатом для git branch <имяветки> за которым идет  git checkout <имяветки>)
+
+### Операции отмены (https://git-scm.com/book/ru/v2/Основы-Git-Операции-отмены)
+Например, если вы фиксируете изменения, и понимаете, что забыли проиндексировать изменения в файле, который хотели включить в коммит, можно сделать примерно так:
+
+- git commit -m 'initial commit'
+- git add forgotten_file
+- git commit --amend
+
+В итоге получится единый коммит — второй коммит заменит результаты первого.
