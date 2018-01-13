@@ -19,10 +19,12 @@
 - git remote add origin https://github.com/avshatalov48/converter.git
 - git push -u origin master
 
-### Создание новой ветки (https://githowto.com/ru/creating_a_branch)
+### Создание новой ветки
+#### https://githowto.com/ru/creating_a_branch
 - git checkout -b <имяветки> (является шорткатом для git branch <имяветки> за которым идет  git checkout <имяветки>)
 
-### Операции отмены (https://git-scm.com/book/ru/v2/Основы-Git-Операции-отмены)
+### Операции отмены
+#### https://git-scm.com/book/ru/v2/Основы-Git-Операции-отмены
 Например, если вы фиксируете изменения, и понимаете, что забыли проиндексировать изменения в файле, который хотели включить в коммит, можно сделать примерно так:
 
 - git commit -m 'initial commit'
