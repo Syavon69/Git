@@ -29,6 +29,9 @@
 
 - git commit -m 'initial commit'
 - git add forgotten_file
-- git commit --amend
+- git commit --amend -m 'initial commit'
 
 В итоге получится единый коммит — второй коммит заменит результаты первого.
+
+### Полезные ссылки:
+- Ой, блин, гит! (https://ru.hexlet.io/blog/posts/oh-shit-git)
