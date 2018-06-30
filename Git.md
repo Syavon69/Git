@@ -42,5 +42,8 @@
 - git reset --hard HEAD~1
 - HEAD~1 означает фиксацию перед головой
 
+- git config user.name "Alexander Shatalov"
+- git config user.email alexander.shataloff@gmail.com
+
 ### Полезные ссылки:
 - Ой, блин, гит! (https://ru.hexlet.io/blog/posts/oh-shit-git)
