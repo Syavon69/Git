@@ -45,5 +45,13 @@
 - git config user.name "Alexander Shatalov"
 - git config user.email alexander.shataloff@gmail.com
 
+### Удаление Git репозитория
+Статья: http://gearmobile.github.io/git/github-how-to-delete-repository/
+- Переходим в нужный репозиторий
+- Копируем его имя
+- Settings > Danger Zone (внизу страницы) > Delete this repository
+- Вводим имя удаляемого репозитория
+- Вводим пароль GiHub
+
 ### Полезные ссылки:
 - Ой, блин, гит! (https://ru.hexlet.io/blog/posts/oh-shit-git)
