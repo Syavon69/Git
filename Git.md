@@ -55,3 +55,4 @@
 
 ### Полезные ссылки:
 - Ой, блин, гит! (https://ru.hexlet.io/blog/posts/oh-shit-git)
+- Как сделать свой первый Pull Request (https://rustycrate.ru/руководства/2016/03/07/contributing.html)
