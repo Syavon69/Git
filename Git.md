@@ -53,6 +53,10 @@
 - Вводим имя удаляемого репозитория
 - Вводим пароль GiHub
 
+### Stash
+- Сохранения изменений: git stash
+- Применение сохраненных изменений: git stash pop
+
 ### Полезные ссылки:
 - Ой, блин, гит! (https://ru.hexlet.io/blog/posts/oh-shit-git)
 - Как сделать свой первый Pull Request (https://rustycrate.ru/руководства/2016/03/07/contributing.html)
