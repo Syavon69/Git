@@ -42,8 +42,13 @@
 - git reset --hard HEAD~1
 - HEAD~1 означает фиксацию перед головой
 
-- git config user.name "Alexander Shatalov"
-- git config user.email alexander.shataloff@gmail.com
+### Checkout
+- git checkout ветка (переключиться на ветку)
+- git checkout -b ветка (создать ветку из текущей и переключиться)
+
+### Reset
+- git reset --hard (отменить все незакоммиченное)
+- git reset --hard HEAD~n (отменить все незакоммиченное и откатиться на n-коммитов)
 
 ### Удаление Git репозитория
 Статья: http://gearmobile.github.io/git/github-how-to-delete-repository/
