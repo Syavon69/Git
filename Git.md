@@ -6,6 +6,10 @@
 - git push
 - git pull
 - git log
+- git config --list
+
+git config --global user.email "email@gmail.com" 
+git config --global user.name "Alexander Shatalov"
 
 ### Create a new repository on the command line
 - echo "# converter" >> README.md
