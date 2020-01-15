@@ -1,4 +1,4 @@
-## Основные команды GIT
+## Основные "повседневные" команды GIT
 
 - git status
 - git add .
@@ -52,10 +52,13 @@
 - Hard Reset на нужный коммит
 - git push -f origin название-ветки
 
-### Объединить несколько коммитов в один
+### Объединить несколько коммитов (изменений) в один
 - Переключаемся на ветку
-- git reset --hard HEAD~12 (Reset the current branch to the commit just before the last 12)
-- git merge --squash HEAD@{1} (HEAD@{1} is where the branch was just before the previous command)
+- Вариант 1:
+  - Soft Hard Reset на нужный коммит
+- Вариант 2:
+  - git reset --hard HEAD~12 (Reset the current branch to the commit just before the last 12)
+  - git merge --squash HEAD@{1} (HEAD@{1} is where the branch was just before the previous command)
 - git push -f origin название-ветки (чтобы удалить предыдущие коммиты, иначе появится новый и останутся прежние)
 - git commit (фиксируем все изменения в новом коммите)
 
