@@ -15,6 +15,11 @@
 
 - git config --system core.longpaths true
 
+### Обновить GIT
+
+- Linux: git update
+- Windows: git update-git-for-windows
+
 ### Create a new repository on the command line
 - echo "# converter" >> README.md
 - git init
