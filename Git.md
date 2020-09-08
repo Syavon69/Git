@@ -11,6 +11,9 @@
 - git config --global user.email "email@gmail.com" 
 - git config --global user.name "Alexander Shatalov"
 
+### Клонирование репозитория в текущий каталог
+- git clone https://gitlab.com/test/ .
+
 ### Решение проблемы "Filename too long" для Windows
 
 - git config --system core.longpaths true
