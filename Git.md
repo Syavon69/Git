@@ -172,7 +172,11 @@ images/*
 - Меню > "+" > "Import your project to GitHub"
 - Для private-репозиториев, необходимо добавлять токены: https://gitlab.com/profile/personal_access_tokens
 
-
+#### Для любых репозиториев
+- Чтобы передались все созданные ветки, необходимо их создать и отслеживать локально. Можно всё сделать вручную, а можно и с помощью Bash-скрипта: https://gist.github.com/avshatalov48/f9ba2cba93ec1c274ca7fa4627287c97
+- Cоздаём пустой репозиторий на GitHub
+- $ git remote add github https://yourLogin@github.com/yourLogin/yourRepoName.git
+- $ git push --mirror github
 
 ### Полезные ссылки:
 - Ой, блин, гит! (https://ru.hexlet.io/blog/posts/oh-shit-git)
