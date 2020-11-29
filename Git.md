@@ -166,8 +166,9 @@ images/*
 - https://github.com/wollzelle/gitlab-github-migrate
 - https://github.com/mahmalsami/migrate-github-gitlab/blob/master/migrate.sh
 
-#### Через "Import"
-- "+" > "Import your project to GitHub"
+#### Через меню "Import repository" (Public)
+- Официальный мануал - https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github
+- Меню > "+" > "Import your project to GitHub"
 
 ### Полезные ссылки:
 - Ой, блин, гит! (https://ru.hexlet.io/blog/posts/oh-shit-git)
