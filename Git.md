@@ -169,7 +169,7 @@ images/*
 
 #### Через меню "Import repository" (Public)
 - Официальный мануал - https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github
-- Меню > "+" > "Import your project to GitHub"
+- GitHub > Меню > "+" > "Import your project to GitHub"
 - Для private-репозиториев, необходимо добавлять токены: https://gitlab.com/profile/personal_access_tokens
 
 #### Для любых репозиториев
@@ -177,6 +177,10 @@ images/*
 - Cоздаём пустой репозиторий на GitHub
 - $ git remote add github https://yourLogin@github.com/yourLogin/yourRepoName.git
 - $ git push --mirror github
+
+### Переименование репозитория:
+- GitHub > Меню > Settings > Options > Repository name > Rename
+- Проект локально: $ git remote set-url origin https://github.com/<ваш-логин>/<новое-имя-репозитория>.git
 
 ### Полезные ссылки:
 - Ой, блин, гит! (https://ru.hexlet.io/blog/posts/oh-shit-git)
