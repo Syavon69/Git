@@ -170,6 +170,9 @@ images/*
 #### Через меню "Import repository" (Public)
 - Официальный мануал - https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github
 - Меню > "+" > "Import your project to GitHub"
+- Для private-репозиториев, необходимо добавлять токены: https://gitlab.com/profile/personal_access_tokens
+
+
 
 ### Полезные ссылки:
 - Ой, блин, гит! (https://ru.hexlet.io/blog/posts/oh-shit-git)
