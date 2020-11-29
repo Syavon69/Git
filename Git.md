@@ -159,6 +159,16 @@ images/*
 /images/h?/*.jp?g
 ```
 
+### Перенос репозитория из GitLab на GitHub
+
+#### Утилиты, скрипты
+- https://github.com/piceaTech/node-gitlab-2-github
+- https://github.com/wollzelle/gitlab-github-migrate
+- https://github.com/mahmalsami/migrate-github-gitlab/blob/master/migrate.sh
+
+#### Через "Import"
+- "+" > "Import your project to GitHub"
+
 ### Полезные ссылки:
 - Ой, блин, гит! (https://ru.hexlet.io/blog/posts/oh-shit-git)
 - Как сделать свой первый Pull Request (https://rustycrate.ru/руководства/2016/03/07/contributing.html)
