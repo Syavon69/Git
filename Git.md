@@ -165,6 +165,7 @@ images/*
 - https://github.com/piceaTech/node-gitlab-2-github
 - https://github.com/wollzelle/gitlab-github-migrate
 - https://github.com/mahmalsami/migrate-github-gitlab/blob/master/migrate.sh
+- https://github.com/cybertk/git-copy
 
 #### Через меню "Import repository" (Public)
 - Официальный мануал - https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github
