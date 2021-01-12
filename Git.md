@@ -167,7 +167,7 @@ images/*
 - https://github.com/mahmalsami/migrate-github-gitlab/blob/master/migrate.sh
 - https://github.com/cybertk/git-copy
 
-#### Через меню "Import repository" (Public)
+#### Через меню GitHub "Import repository" (Public)
 - Официальный мануал - https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github
 - GitHub > Меню > "+" > "Import your project to GitHub"
 - Для private-репозиториев, необходимо добавлять токены: https://gitlab.com/profile/personal_access_tokens
@@ -178,9 +178,13 @@ images/*
 - $ git remote add github https://yourLogin@github.com/yourLogin/yourRepoName.git
 - $ git push --mirror github
 
-### Переименование репозитория:
+### Переименование репозитория
 - GitHub > Меню > Settings > Options > Repository name > Rename
 - Проект локально: $ git remote set-url origin https://github.com/<ваш-логин>/<новое-имя-репозитория>.git
+
+### Вывод списка названий коммитов с датой и хэшем
+- $ git log --pretty="%ad | %h | %s" --no-merges --date=format:"%Y-%m-%d %H:%M:%S"
+- https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
 
 ### Полезные ссылки:
 - Ой, блин, гит! (https://ru.hexlet.io/blog/posts/oh-shit-git)
