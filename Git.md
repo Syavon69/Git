@@ -183,7 +183,7 @@ images/*
 - Проект локально: $ git remote set-url origin https://github.com/<ваш-логин>/<новое-имя-репозитория>.git
 
 ### Вывод списка названий коммитов с датой и хэшем
-- $ git log --pretty="%ad | %h | %s" --no-merges --date=format:"%Y-%m-%d %H:%M:%S"
+- $ git log --pretty="- %ad | %h | %s" --no-merges --date=format:"%Y-%m-%d %H:%M:%S" >commites.txt
 - https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
 
 ### Отключение проверки SSL
