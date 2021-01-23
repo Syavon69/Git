@@ -186,6 +186,12 @@ images/*
 - $ git log --pretty="%ad | %h | %s" --no-merges --date=format:"%Y-%m-%d %H:%M:%S"
 - https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
 
+### Отключение проверки SSL
+- $ git config --global http.sslVerify false
+
+### Fix Git Self Signed Certificate in Certificate Chain on Windows
+https://mattferderer.com/fix-git-self-signed-certificate-in-certificate-chain-on-windows
+
 ### Полезные ссылки:
 - Ой, блин, гит! (https://ru.hexlet.io/blog/posts/oh-shit-git)
 - Как сделать свой первый Pull Request (https://rustycrate.ru/руководства/2016/03/07/contributing.html)
