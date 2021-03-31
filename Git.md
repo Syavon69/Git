@@ -11,6 +11,9 @@
 - git config --global user.email "email@gmail.com" 
 - git config --global user.name "Alexander Shatalov"
 
+### Добавить каталог в индекс
+- git add folder_name/
+
 ### Клонирование репозитория в текущий каталог
 - git clone https://gitlab.com/test/ .
 
